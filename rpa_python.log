@@ -1,0 +1,6 @@
+Unable to open file: /Users/jayeetadatta/cui/rpa_python.js
+
+  phantomjs://code/bootstrap.js:113 in __die
+Unable to load script /Users/jayeetadatta/cui/rpa_python.js; check file syntax
+
+  phantomjs://code/bootstrap.js:113 in __die
