@@ -25,6 +25,8 @@ from ApplicationServices import (
 # ---------------------------------------------------------------------
 
 def _osascript(script: str) -> str:
+    
+    script = script.encode("utf-8").decode("unicode_escape")
     print(script)
     p = subprocess.run(
         ["osascript", "-e", script],
